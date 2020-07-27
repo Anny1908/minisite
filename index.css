@@ -1,19 +1,33 @@
-                body {
-                display: inline-flex;
-                background-color: rgb(165, 40, 138);
-            }
-            
-            div {
-                max-width: 550px;
-                margin-bottom: 10px;
-            }
-            
-            img {
-                width: 100%
-            }
-            
-            #container max-width: 550px;
-            margin:0auto;
-            article {
-                margin-bottom: 45px;
-                border: 1px solid;
+                    body {
+                    display: inline-flex;
+                    background-color: rgb(165, 40, 138);
+                }
+                
+                P {
+                    color: red;
+                    font-size: 20px;
+                    font-family: Courier;
+                    font-weight: bold;
+                    font-style: italic;
+                    line-height: 30px;
+                    letter-spacing: 5px;
+                    text-decoration: underline;
+                    text-transform: capitalize;
+                    text-align: left;
+                    text-indent: 30px;
+                }
+                
+                div {
+                    max-width: 550px;
+                    margin-bottom: 10px;
+                }
+                
+                img {
+                    width: 100%
+                }
+                
+                #container max-width: 550px;
+                margin:0auto;
+                article {
+                    margin-bottom: 45px;
+                    border: 1px solid;
