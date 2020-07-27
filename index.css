@@ -1,33 +1,57 @@
-                    body {
-                    display: inline-flex;
-                    background-color: rgb(165, 40, 138);
-                }
-                
-                P {
-                    color: red;
-                    font-size: 20px;
-                    font-family: Courier;
-                    font-weight: bold;
-                    font-style: italic;
-                    line-height: 30px;
-                    letter-spacing: 5px;
-                    text-decoration: underline;
-                    text-transform: capitalize;
-                    text-align: left;
-                    text-indent: 30px;
-                }
-                
-                div {
-                    max-width: 550px;
-                    margin-bottom: 10px;
-                }
-                
-                img {
-                    width: 100%
-                }
-                
-                #container max-width: 550px;
-                margin:0auto;
-                article {
-                    margin-bottom: 45px;
-                    border: 1px solid;
+                                body {
+                                display: inline-flex;
+                                background-color: rgb(216, 153, 209);
+                            }
+                            
+                            P {
+                                color: red;
+                                font-size: 20px;
+                                font-family: Courier;
+                                font-weight: bold;
+                                font-style: italic;
+                                line-height: 30px;
+                                letter-spacing: 5px;
+                                text-decoration: underline;
+                                text-transform: capitalize;
+                                text-align: left;
+                                text-indent: 30px;
+                            }
+                            
+                            div {
+                                max-width: 550px;
+                                margin-bottom: 10px;
+                            }
+                            
+                            img {
+                                width: 100%
+                            }
+                            
+                            #container max-width: 550px;
+                            margin: 0 auto;
+                            article {
+                                margin-bottom: 45px;
+                                border: 1px solid;
+                                p {
+                                    background-color: #db75ad;
+                                    color: rgb(100, 65, 70);
+                                }
+                                p.box1 {
+                                    width: 150px;
+                                    margin: 10px 50px;
+                                    padding: 20px;
+                                    font-size: italic;
+                                    background-color: #cfc;
+                                    color: #000;
+                                }
+                                p {
+                                    background-color: #db75ad;
+                                    color: rgb(117, 82, 82);
+                                }
+                                p.box2 {
+                                    width: 150px;
+                                    margin: 10px 50px;
+                                    padding: 20px;
+                                    font-size: italic;
+                                    background-color: rgb(49, 153, 49);
+                                    color: rgb(212, 152, 152);
+                                }
